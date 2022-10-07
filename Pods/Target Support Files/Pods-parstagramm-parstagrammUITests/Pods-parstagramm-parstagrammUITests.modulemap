@@ -1,0 +1,6 @@
+framework module Pods_parstagramm_parstagrammUITests {
+  umbrella header "Pods-parstagramm-parstagrammUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
