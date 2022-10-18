@@ -18,6 +18,7 @@
 		E210196B28EF938F004F168E /* parstagrammTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E210196A28EF938F004F168E /* parstagrammTests.swift */; };
 		E210197528EF938F004F168E /* parstagrammUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E210197428EF938F004F168E /* parstagrammUITests.swift */; };
 		E210197728EF938F004F168E /* parstagrammUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E210197628EF938F004F168E /* parstagrammUITestsLaunchTests.swift */; };
+		E230F67628FE3A4000ACF6F0 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E230F67528FE3A4000ACF6F0 /* CommentCell.swift */; };
 		E235F67728EFBAAE00F5D013 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E235F67628EFBAAE00F5D013 /* LoginViewController.swift */; };
 		E235F67928EFBACC00F5D013 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E235F67828EFBACC00F5D013 /* FeedViewController.swift */; };
 		E235F67B28EFF8A000F5D013 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E235F67A28EFF8A000F5D013 /* CameraViewController.swift */; };
@@ -62,6 +63,7 @@
 		E210197028EF938F004F168E /* parstagrammUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = parstagrammUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E210197428EF938F004F168E /* parstagrammUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = parstagrammUITests.swift; sourceTree = "<group>"; };
 		E210197628EF938F004F168E /* parstagrammUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = parstagrammUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E230F67528FE3A4000ACF6F0 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		E235F67628EFBAAE00F5D013 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		E235F67828EFBACC00F5D013 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		E235F67A28EFF8A000F5D013 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 				E210195E28EF938F004F168E /* LaunchScreen.storyboard */,
 				E210196128EF938F004F168E /* Info.plist */,
 				E235F67C28F0053600F5D013 /* PostCell.swift */,
+				E230F67528FE3A4000ACF6F0 /* CommentCell.swift */,
 			);
 			path = parstagramm;
 			sourceTree = "<group>";
@@ -421,6 +424,7 @@
 				E235F67928EFBACC00F5D013 /* FeedViewController.swift in Sources */,
 				E210195628EF938E004F168E /* SceneDelegate.swift in Sources */,
 				E235F67D28F0053600F5D013 /* PostCell.swift in Sources */,
+				E230F67628FE3A4000ACF6F0 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -652,7 +656,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A60896E3DA7B9041D8DCD3E2 /* Pods-parstagrammTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -673,7 +676,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B38F09795A7C22835CD33AFE /* Pods-parstagrammTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -694,7 +696,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1251327456889D0D5C3CB42E /* Pods-parstagramm-parstagrammUITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = RL6H7599DG;
@@ -713,7 +714,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E3DA3F23407A6D8DCC43D296 /* Pods-parstagramm-parstagrammUITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = RL6H7599DG;

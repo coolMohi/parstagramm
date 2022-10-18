@@ -1,3 +1,4 @@
+
 # Uncomment the next line to define a global platform for your project
  platform :ios, '9.0'
 
@@ -7,7 +8,8 @@ target 'parstagramm' do
 
   # Pods for parstagramm
    pod 'Parse'
-  pod 'AlamofireImage'
+   pod 'AlamofireImage'
+   pod 'MessageInputBar'
 
   target 'parstagrammTests' do
     inherit! :search_paths
